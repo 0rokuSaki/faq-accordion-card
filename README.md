@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://0rokusaki.github.io/faq-accordion-card/)
+- Live Site URL: [https://0rokusaki.github.io/faq-accordion-card/](https://0rokusaki.github.io/faq-accordion-card/)
 
 ## My process
 
