@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="main-container position-relative">
+    <div class="container bg-white rounded position-absolute top-50 start-50 translate-middle my-4">
+      <div class="row pb-3 rounded">
+        <div class="illustration-background rounded col-lg-6 col-sm-12">
+
+          <img class="desktop-illustration-box" src="./images/illustration-box-desktop.svg" alt="">
+
+          <div class="mobile-illustration-container">
+            <img class="mobile-illustration img-fluid" src="./images/illustration-woman-online-mobile.svg" alt="">
+            <img class="mobile-illustration-bg img-fluid" src="./images/bg-pattern-mobile.svg" alt="">
+          </div>
+
+        </div>
+        <div class="faq-section col-lg-6 col-sm-12 px-4 dark-grayish-blue lh-base">
+
+          <div class="faq-title-wrapper mb-5">
+            <h1 class="faq-title fw-bold black">FAQ</h1>
+          </div>
+          <div class="question q1 position-relative">
+            How many team members can I invite?
+            <img class="icon-arrow-down img-fluid position-absolute top-50 end-0 translate-middle-y" src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <div class="answer a1 hidden">
+            <br>
+            You can invite up to 2 additional users on the Free plan. There is no limit on
+            team members for the Premium plan.
+            <br>
+          </div>
+          <hr>
+          <div class="question q2 position-relative">
+            What is the maximum file upload size?
+            <img class="icon-arrow-down img-fluid position-absolute top-50 end-0 translate-middle-y" src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <div class="answer a2 hidden">
+            <br>
+            No more than 2GB. All files in your account must fit your allotted storage space.
+            <br>
+          </div>
+          <hr>
+          <div class="question q3 position-relative">
+            How do I reset my password?
+            <img class="icon-arrow-down img-fluid position-absolute top-50 end-0 translate-middle-y" src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <div class="answer a3 hidden">
+            <br>
+            Click “Forgot password” from the login page or “Change password” from your profile page.
+            A reset link will be emailed to you.
+            <br>
+          </div>
+          <hr>
+          <div class="question q4 position-relative">
+            Can I cancel my subscription?
+            <img class="icon-arrow-down img-fluid position-absolute top-50 end-0 translate-middle-y" src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <div class="answer a4 hidden">
+            <br>
+            Yes! Send us a message and we’ll process your request no questions asked.
+            <br>
+          </div>
+          <hr>
+          <div class="question q5 position-relative">
+            Do you provide additional support?
+            <img class="icon-arrow-down img-fluid position-absolute top-50 end-0 translate-middle-y" src="./images/icon-arrow-down.svg" alt="">
+          </div>
+          <div class="answer a5 hidden">
+            <br>
+            Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            <br>
+          </div>
+          <hr>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution position-absolute bottom-0 start-50 translate-middle-x">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Aaron Barkan</a>.
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+</html>

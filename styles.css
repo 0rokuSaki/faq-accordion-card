@@ -1,0 +1,149 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 14px;
+}
+
+hr {
+  color: hsl(240, 5%, 55%);
+  margin: 1rem 0;
+}
+
+.very-dark-grayish-blue {
+  color: hsl(237, 12%, 33%);
+}
+
+.dark-grayish-blue {
+  color: hsl(240, 6%, 50%);
+}
+
+.black {
+  color: black;
+}
+
+.rounded {
+  border-radius: 24px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.rotate-180 {
+  transform: rotate(180deg) translateY(50%) !important;
+}
+
+.main-container {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100%;
+  z-index: 10 !important;
+}
+
+.container {
+  max-width: 90%;
+}
+
+.illustration-background {
+  height: 150px;
+}
+
+.desktop-illustration-box {
+  display: none;
+}
+
+.desktop-illustration-bg {
+  left: -590px;
+  top: -230px;
+  z-index: 1;
+}
+
+.mobile-illustration-container {
+  position: relative;
+  bottom: 105px;
+}
+
+.mobile-illustration {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  right: 16px;
+}
+
+.mobile-illustration-bg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: relative;
+  bottom: 72px;
+}
+
+.faq-title-wrapper {
+  text-align: center;
+}
+
+.faq-title {
+  font-size: 2.5rem;
+}
+
+.question {
+  cursor: pointer;
+}
+
+/* media queries */
+@media only screen and (max-height: 700px) {
+  .main-container {
+    height: 142%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    margin: 0 !important;
+    max-width: 70%;
+    padding: 0;
+  }
+
+  .row {
+    padding: 0 !important;
+    margin: -0.7px !important;
+  }
+
+  .illustration-background {
+    background-image:
+      url("./images/illustration-woman-online-desktop.svg"),
+      url("./images/bg-pattern-desktop.svg");
+    background-position:
+      -150% 50%,
+      130% 60%;
+    background-size:
+      90%,
+      185%;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 0 !important;
+  }
+
+  .desktop-illustration-box {
+    display: block;
+    position: relative;
+    right: 15%;
+    top: 42%;
+    max-width: 32%;
+  }
+
+  .mobile-illustration-container {
+    display: none;
+  }
+
+  .faq-section {
+    padding: 7%;
+  }
+
+  .faq-title-wrapper {
+    text-align: left;
+  }
+}
